@@ -29,7 +29,8 @@ import logging
 import numpy as np
 import pandas as pd
 from pandas import DataFrame
-from typing import Optional, Dict, Any
+from typing import Optional, Dict, Any, Union
+from collections import OrderedDict
 from datetime import datetime, timedelta
 from freqtrade.strategy import IStrategy, DecimalParameter, IntParameter
 from freqtrade.persistence import Trade
@@ -870,19 +871,18 @@ class Alvinchen_15m131_FreqAI(IStrategy):
 
     def adjust_trade_position(
         self,
-        pair: str,
         trade: Trade,
         current_time: datetime,
         current_rate: float,
         current_profit: float,
-        min_stake: Optional[float],
+        min_stake: float | None,
         max_stake: float,
         current_entry_rate: float,
         current_exit_rate: float,
         current_entry_profit: float,
         current_exit_profit: float,
         **kwargs
-    ) -> Optional[Union[OrderedDict, Dict]]:
+    ) -> float | None | tuple[float | None, str | None]:
         """
         V31: 补仓策略
 
@@ -893,7 +893,11 @@ class Alvinchen_15m131_FreqAI(IStrategy):
 
         补仓比例: 初始仓位的50%
         """
-        dataframe, _ = self.dp.get_analyzed_dataframe(pair, self.timeframe)
+        # 防止在订单执行期间调整
+        if trade.has_open_orders:
+            return None
+
+        dataframe, _ = self.dp.get_analyzed_dataframe(trade.pair, self.timeframe)
         if dataframe is None or dataframe.empty:
             return None
 
@@ -931,14 +935,10 @@ class Alvinchen_15m131_FreqAI(IStrategy):
         if min_stake and add_stake < min_stake:
             add_stake = min_stake
 
-        logger.info(f"📊 [补仓] {pair} {'做空' if trade.is_short else '做多'} "
+        logger.info(f"📊 [补仓] {trade.pair} {'做空' if trade.is_short else '做多'} "
                    f"当前亏损: {current_profit:.2%}, 补仓金额: {add_stake:.2f} USDT")
 
-        return {
-            'stake_amount': add_stake,
-            'price': current_rate,
-            'price_last': current_rate,
-        }
+        return add_stake, "dca_increase"
 
     def custom_exit(
         self,
