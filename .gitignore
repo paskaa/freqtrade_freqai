@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Freqtrade specific
+user_data/data/
+user_data/backtest_results/
+user_data/hyperopt_results/
+user_data/plot/
+user_data/models/
+*.db
+*.sqlite
+
+# Logs
+*.log
+logs/
+
+# Secrets - NEVER commit these
+*.env
+.env.*
+secrets.json
+credentials.json
+
+# Config files with API keys
+user_data/config_freqai.json
+user_data/config.json
+
+# API Keys
+*api_key*
+*secret*
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Session files
+*.session
+*.session-journal

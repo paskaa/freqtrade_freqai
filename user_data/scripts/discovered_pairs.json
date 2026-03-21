@@ -1,0 +1,2305 @@
+{
+  "discovered_pairs": {
+    "PI": {
+      "symbol": "PI",
+      "pair": "PI/USDT:USDT",
+      "score": 0.56,
+      "source": "coingecko_trending",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "PI",
+        "name": "Pi Network",
+        "market_cap_rank": 44,
+        "score": 0,
+        "source": "coingecko_trending"
+      }
+    },
+    "XAUT": {
+      "symbol": "XAUT",
+      "pair": "XAUT/USDT:USDT",
+      "score": 0.8300000000000001,
+      "source": "coingecko_trending",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "XAUT",
+        "name": "Tether Gold",
+        "market_cap_rank": 37,
+        "score": 2,
+        "source": "coingecko_trending"
+      }
+    },
+    "TAO": {
+      "symbol": "TAO",
+      "pair": "TAO/USDT:USDT",
+      "score": 0.95,
+      "source": "coingecko_trending",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "market_cap_rank": 35,
+        "score": 3,
+        "source": "coingecko_trending"
+      }
+    },
+    "HYPE": {
+      "symbol": "HYPE",
+      "pair": "HYPE/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "HYPE",
+        "title": "Grayscale files for HYPE ETF as Hyperliquid dominance draws Wall Street interest",
+        "source": "coinmarketcap"
+      }
+    },
+    "BTC": {
+      "symbol": "BTC",
+      "pair": "BTC/USDT:USDT",
+      "score": 0.5,
+      "source": "panews",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "BTC",
+        "content": "\u300d\u7f8eSEC\u5904\u7406\u6469\u6839\u58eb\u4e39\u5229BTC ETF\u7533\u8bf7",
+        "source": "panews"
+      }
+    },
+    "ZBCN": {
+      "symbol": "ZBCN",
+      "pair": "ZBCN/USDT:USDT",
+      "score": 0.6,
+      "source": "coingecko_trending",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "ZBCN",
+        "name": "Zebec Network",
+        "market_cap_rank": 148,
+        "score": 6,
+        "source": "coingecko_trending"
+      }
+    },
+    "AKT": {
+      "symbol": "AKT",
+      "pair": "AKT/USDT:USDT",
+      "score": 0.7,
+      "source": "coingecko_trending",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "AKT",
+        "name": "Akash Network",
+        "market_cap_rank": 213,
+        "score": 7,
+        "source": "coingecko_trending"
+      }
+    },
+    "ROBO": {
+      "symbol": "ROBO",
+      "pair": "ROBO/USDT:USDT",
+      "score": 0.8,
+      "source": "coingecko_trending",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "ROBO",
+        "name": "Fabric Protocol",
+        "market_cap_rank": 412,
+        "score": 8,
+        "source": "coingecko_trending"
+      }
+    },
+    "LIT": {
+      "symbol": "LIT",
+      "pair": "LIT/USDT:USDT",
+      "score": 0.9,
+      "source": "coingecko_trending",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "market_cap_rank": 143,
+        "score": 9,
+        "source": "coingecko_trending"
+      }
+    },
+    "TON": {
+      "symbol": "TON",
+      "pair": "TON/USDT:USDT",
+      "score": 1.0,
+      "source": "coingecko_trending",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "TON",
+        "name": "Toncoin",
+        "market_cap_rank": 33,
+        "score": 10,
+        "source": "coingecko_trending"
+      }
+    },
+    "LYN": {
+      "symbol": "LYN",
+      "pair": "LYN/USDT:USDT",
+      "score": 1.0,
+      "source": "coingecko_trending",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "LYN",
+        "name": "Everlyn",
+        "market_cap_rank": 973,
+        "score": 11,
+        "source": "coingecko_trending"
+      }
+    },
+    "SOL": {
+      "symbol": "SOL",
+      "pair": "SOL/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "SOL",
+        "title": "\ud83d\udd25 SOL",
+        "source": "coinmarketcap"
+      }
+    },
+    "NEAR": {
+      "symbol": "NEAR",
+      "pair": "NEAR/USDT:USDT",
+      "score": 1.0,
+      "source": "coingecko_trending",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "market_cap_rank": 49,
+        "score": 13,
+        "source": "coingecko_trending"
+      }
+    },
+    "SHIB": {
+      "symbol": "SHIB",
+      "pair": "SHIB/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "SHIB",
+        "title": "Crypto Market Review: 3 XRP Levels, SHIB Resistance Test, Ethereum Outlook",
+        "source": "coinmarketcap"
+      }
+    },
+    "PEPE": {
+      "symbol": "PEPE",
+      "pair": "PEPE/USDT:USDT",
+      "score": 0.35,
+      "source": "twitter_trending",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "PEPE",
+        "mentions": 5000,
+        "sentiment": 0.7,
+        "source": "twitter_trending"
+      }
+    },
+    "BONK": {
+      "symbol": "BONK",
+      "pair": "BONK/USDT:USDT",
+      "score": 0.325,
+      "source": "twitter_trending",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "BONK",
+        "mentions": 2500,
+        "sentiment": 0.65,
+        "source": "twitter_trending"
+      }
+    },
+    "TRUMP": {
+      "symbol": "TRUMP",
+      "pair": "TRUMP/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "TRUMP",
+        "title": "Dogecoin Price Prediction 2026: TRUMP Whales Feast While\u2026",
+        "source": "coinmarketcap"
+      }
+    },
+    "CLARITY": {
+      "symbol": "CLARITY",
+      "pair": "CLARITY/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "CLARITY",
+        "title": "Early CLARITY Act Deal Reached Between White House and US Lawmakers: Report",
+        "source": "coinmarketcap"
+      }
+    },
+    "CFO": {
+      "symbol": "CFO",
+      "pair": "CFO/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "CFO",
+        "title": "Ledger Targets Wall Street With New York Expansion and CFO Hire",
+        "source": "coinmarketcap"
+      }
+    },
+    "NYC": {
+      "symbol": "NYC",
+      "pair": "NYC/USDT:USDT",
+      "score": 0.6,
+      "source": "cointelegraph",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "NYC",
+        "title": "Ledger hires ex-Circle exec as CFO, opens NYC office to expand US business",
+        "categories": [
+          "Latest News"
+        ],
+        "source": "cointelegraph"
+      }
+    },
+    "ETH": {
+      "symbol": "ETH",
+      "pair": "ETH/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "ETHEREUM",
+        "title": "Ethereum Price Prediction 2026: ETH Shows Its Age While\u2026",
+        "source": "coinmarketcap"
+      }
+    },
+    "TACO": {
+      "symbol": "TACO",
+      "pair": "TACO/USDT:USDT",
+      "score": 0.6,
+      "source": "cointelegraph",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "TACO",
+        "title": "Traders pricing in TACO trade may be in for 'rude awakening' \u2014 Analyst",
+        "categories": [
+          "Latest News"
+        ],
+        "source": "cointelegraph"
+      }
+    },
+    "INTERVIEW": {
+      "symbol": "INTERVIEW",
+      "pair": "INTERVIEW/USDT:USDT",
+      "score": 0.6,
+      "source": "cointelegraph",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "INTERVIEW",
+        "title": "Market analyst sees further Bitcoin downside, flags $60K as key level",
+        "categories": [
+          "Interview"
+        ],
+        "source": "cointelegraph"
+      }
+    },
+    "RSI": {
+      "symbol": "RSI",
+      "pair": "RSI/USDT:USDT",
+      "score": 0.6,
+      "source": "cointelegraph",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "RSI",
+        "title": "Bitcoin RSI signals potential bottom as analysts flag key setup",
+        "categories": [
+          "Markets"
+        ],
+        "source": "cointelegraph"
+      }
+    },
+    "MSBT": {
+      "symbol": "MSBT",
+      "pair": "MSBT/USDT:USDT",
+      "score": 0.6,
+      "source": "cointelegraph",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "MSBT",
+        "title": "Morgan Stanley files amended S-1 for MSBT Bitcoin ETF",
+        "categories": [
+          "Latest News"
+        ],
+        "source": "cointelegraph"
+      }
+    },
+    "SECURITIES": {
+      "symbol": "SECURITIES",
+      "pair": "SECURITIES/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "SECURITIES",
+        "title": "HK Securities Association Head Flags Controversy Over Virtual Asset Brokerage Registration Rules",
+        "source": "coinmarketcap"
+      }
+    },
+    "ASSET": {
+      "symbol": "ASSET",
+      "pair": "ASSET/USDT:USDT",
+      "score": 0.5,
+      "source": "panews",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "ASSET",
+        "content": "\u300dDigital Asset Summit 2026\u00b7\u7ebd\u7ea6\u7ad9",
+        "source": "panews"
+      }
+    },
+    "VIRTUAL": {
+      "symbol": "VIRTUAL",
+      "pair": "VIRTUAL/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "VIRTUAL",
+        "title": "HK Securities Association Head Flags Controversy Over Virtual Asset Brokerage Registration Rules",
+        "source": "coinmarketcap"
+      }
+    },
+    "RULES": {
+      "symbol": "RULES",
+      "pair": "RULES/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "RULES",
+        "title": "HK Securities Association Head Flags Controversy Over Virtual Asset Brokerage Registration Rules",
+        "source": "coinmarketcap"
+      }
+    },
+    "HK": {
+      "symbol": "HK",
+      "pair": "HK/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "HK",
+        "title": "HK Securities Association Head Flags Controversy Over Virtual Asset Brokerage Registration Rules",
+        "source": "coinmarketcap"
+      }
+    },
+    "BROKERAGE": {
+      "symbol": "BROKERAGE",
+      "pair": "BROKERAGE/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "BROKERAGE",
+        "title": "HK Securities Association Head Flags Controversy Over Virtual Asset Brokerage Registration Rules",
+        "source": "coinmarketcap"
+      }
+    },
+    "HEAD": {
+      "symbol": "HEAD",
+      "pair": "HEAD/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "HEAD",
+        "title": "HK Securities Association Head Flags Controversy Over Virtual Asset Brokerage Registration Rules",
+        "source": "coinmarketcap"
+      }
+    },
+    "FLAGS": {
+      "symbol": "FLAGS",
+      "pair": "FLAGS/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "FLAGS",
+        "title": "HK Securities Association Head Flags Controversy Over Virtual Asset Brokerage Registration Rules",
+        "source": "coinmarketcap"
+      }
+    },
+    "MOVE": {
+      "symbol": "MOVE",
+      "pair": "MOVE/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "MOVE",
+        "title": "Grayscale Hyperliquid ETF Filing: A Strategic Move That Could Reshape Crypto Markets",
+        "source": "coinmarketcap"
+      }
+    },
+    "FILING": {
+      "symbol": "FILING",
+      "pair": "FILING/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "FILING",
+        "title": "Grayscale Files for Spot Hyperliquid ETF: What the Filing Could Mean",
+        "source": "coinmarketcap"
+      }
+    },
+    "COULD": {
+      "symbol": "COULD",
+      "pair": "COULD/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "COULD",
+        "title": "Market Makers Lose Control? Mastercard Stablecoin Push + SEC Shift Could Trigger 30\u00d7 Altcoin Rally \u2014 5 Trades to Watch",
+        "source": "coinmarketcap"
+      }
+    },
+    "GRAYSCALE": {
+      "symbol": "GRAYSCALE",
+      "pair": "GRAYSCALE/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "GRAYSCALE",
+        "title": "Grayscale files for HYPE ETF as Hyperliquid dominance draws Wall Street interest",
+        "source": "coinmarketcap"
+      }
+    },
+    "RESHAPE": {
+      "symbol": "RESHAPE",
+      "pair": "RESHAPE/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "RESHAPE",
+        "title": "Grayscale Hyperliquid ETF Filing: A Strategic Move That Could Reshape Crypto Markets",
+        "source": "coinmarketcap"
+      }
+    },
+    "WHAT": {
+      "symbol": "WHAT",
+      "pair": "WHAT/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "WHAT",
+        "title": "Grayscale Files for Spot Hyperliquid ETF: What the Filing Could Mean",
+        "source": "coinmarketcap"
+      }
+    },
+    "MEAN": {
+      "symbol": "MEAN",
+      "pair": "MEAN/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "MEAN",
+        "title": "Grayscale Files for Spot Hyperliquid ETF: What the Filing Could Mean",
+        "source": "coinmarketcap"
+      }
+    },
+    "SPOT": {
+      "symbol": "SPOT",
+      "pair": "SPOT/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "SPOT",
+        "title": "Grayscale Files for Spot Hyperliquid ETF: What the Filing Could Mean",
+        "source": "coinmarketcap"
+      }
+    },
+    "FILES": {
+      "symbol": "FILES",
+      "pair": "FILES/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "FILES",
+        "title": "Grayscale files for HYPE ETF as Hyperliquid dominance draws Wall Street interest",
+        "source": "coinmarketcap"
+      }
+    },
+    "AMUNDI": {
+      "symbol": "AMUNDI",
+      "pair": "AMUNDI/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "AMUNDI",
+        "title": "Amundi Launches $100M Tokenized Fund SAFO With Spiko",
+        "source": "coinmarketcap"
+      }
+    },
+    "FUND": {
+      "symbol": "FUND",
+      "pair": "FUND/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "FUND",
+        "title": "Amundi Launches $100M Tokenized Fund SAFO With Spiko",
+        "source": "coinmarketcap"
+      }
+    },
+    "SPIKO": {
+      "symbol": "SPIKO",
+      "pair": "SPIKO/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "SPIKO",
+        "title": "Amundi Launches $100M Tokenized Fund SAFO With Spiko",
+        "source": "coinmarketcap"
+      }
+    },
+    "TOKENIZED": {
+      "symbol": "TOKENIZED",
+      "pair": "TOKENIZED/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "TOKENIZED",
+        "title": "Amundi Launches $100M Tokenized Fund SAFO With Spiko",
+        "source": "coinmarketcap"
+      }
+    },
+    "SAFO": {
+      "symbol": "SAFO",
+      "pair": "SAFO/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "SAFO",
+        "title": "Amundi Launches $100M Tokenized Fund SAFO With Spiko",
+        "source": "coinmarketcap"
+      }
+    },
+    "FORGES": {
+      "symbol": "FORGES",
+      "pair": "FORGES/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "FORGES",
+        "title": "Argentine Football Association Forges Strategic Partnership with Crypto Exchange Deepcoin for 2026 World Cup",
+        "source": "coinmarketcap"
+      }
+    },
+    "WORLD": {
+      "symbol": "WORLD",
+      "pair": "WORLD/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "WORLD",
+        "title": "Argentine Football Association Forges Strategic Partnership with Crypto Exchange Deepcoin for 2026 World Cup",
+        "source": "coinmarketcap"
+      }
+    },
+    "DEEPCOIN": {
+      "symbol": "DEEPCOIN",
+      "pair": "DEEPCOIN/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "DEEPCOIN",
+        "title": "Argentine Football Association Forges Strategic Partnership with Crypto Exchange Deepcoin for 2026 World Cup",
+        "source": "coinmarketcap"
+      }
+    },
+    "ARGENTINE": {
+      "symbol": "ARGENTINE",
+      "pair": "ARGENTINE/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "ARGENTINE",
+        "title": "Argentine Football Association Forges Strategic Partnership with Crypto Exchange Deepcoin for 2026 World Cup",
+        "source": "coinmarketcap"
+      }
+    },
+    "FOOTBALL": {
+      "symbol": "FOOTBALL",
+      "pair": "FOOTBALL/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "FOOTBALL",
+        "title": "Argentine Football Association Forges Strategic Partnership with Crypto Exchange Deepcoin for 2026 World Cup",
+        "source": "coinmarketcap"
+      }
+    },
+    "CUP": {
+      "symbol": "CUP",
+      "pair": "CUP/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "CUP",
+        "title": "Argentine Football Association Forges Strategic Partnership with Crypto Exchange Deepcoin for 2026 World Cup",
+        "source": "coinmarketcap"
+      }
+    },
+    "WALL": {
+      "symbol": "WALL",
+      "pair": "WALL/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "WALL",
+        "title": "Ledger Targets Wall Street With New York Expansion and CFO Hire",
+        "source": "coinmarketcap"
+      }
+    },
+    "DOMINANCE": {
+      "symbol": "DOMINANCE",
+      "pair": "DOMINANCE/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "DOMINANCE",
+        "title": "Grayscale files for HYPE ETF as Hyperliquid dominance draws Wall Street interest",
+        "source": "coinmarketcap"
+      }
+    },
+    "DRAWS": {
+      "symbol": "DRAWS",
+      "pair": "DRAWS/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "DRAWS",
+        "title": "Grayscale files for HYPE ETF as Hyperliquid dominance draws Wall Street interest",
+        "source": "coinmarketcap"
+      }
+    },
+    "STREET": {
+      "symbol": "STREET",
+      "pair": "STREET/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "STREET",
+        "title": "Ledger Targets Wall Street With New York Expansion and CFO Hire",
+        "source": "coinmarketcap"
+      }
+    },
+    "INTEREST": {
+      "symbol": "INTEREST",
+      "pair": "INTEREST/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "INTEREST",
+        "title": "Grayscale files for HYPE ETF as Hyperliquid dominance draws Wall Street interest",
+        "source": "coinmarketcap"
+      }
+    },
+    "LEVELS": {
+      "symbol": "LEVELS",
+      "pair": "LEVELS/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "LEVELS",
+        "title": "Crypto Market Review: 3 XRP Levels, SHIB Resistance Test, Ethereum Outlook",
+        "source": "coinmarketcap"
+      }
+    },
+    "OUTLOOK": {
+      "symbol": "OUTLOOK",
+      "pair": "OUTLOOK/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "OUTLOOK",
+        "title": "Crypto Market Review: 3 XRP Levels, SHIB Resistance Test, Ethereum Outlook",
+        "source": "coinmarketcap"
+      }
+    },
+    "RESISTANCE": {
+      "symbol": "RESISTANCE",
+      "pair": "RESISTANCE/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "RESISTANCE",
+        "title": "Crypto Market Review: 3 XRP Levels, SHIB Resistance Test, Ethereum Outlook",
+        "source": "coinmarketcap"
+      }
+    },
+    "XRP": {
+      "symbol": "XRP",
+      "pair": "XRP/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "XRP",
+        "title": "Crypto Market Review: 3 XRP Levels, SHIB Resistance Test, Ethereum Outlook",
+        "source": "coinmarketcap"
+      }
+    },
+    "REVIEW": {
+      "symbol": "REVIEW",
+      "pair": "REVIEW/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "REVIEW",
+        "title": "Crypto Market Review: 3 XRP Levels, SHIB Resistance Test, Ethereum Outlook",
+        "source": "coinmarketcap"
+      }
+    },
+    "TEST": {
+      "symbol": "TEST",
+      "pair": "TEST/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "TEST",
+        "title": "Crypto Market Review: 3 XRP Levels, SHIB Resistance Test, Ethereum Outlook",
+        "source": "coinmarketcap"
+      }
+    },
+    "FALCONX": {
+      "symbol": "FALCONX",
+      "pair": "FALCONX/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "FALCONX",
+        "title": "FalconX Explores IPO Plans as Cantor and Banks Compete for\u2026",
+        "source": "coinmarketcap"
+      }
+    },
+    "COMPETE": {
+      "symbol": "COMPETE",
+      "pair": "COMPETE/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "COMPETE",
+        "title": "FalconX Explores IPO Plans as Cantor and Banks Compete for\u2026",
+        "source": "coinmarketcap"
+      }
+    },
+    "PLANS": {
+      "symbol": "PLANS",
+      "pair": "PLANS/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "PLANS",
+        "title": "FalconX Explores IPO Plans as Cantor and Banks Compete for\u2026",
+        "source": "coinmarketcap"
+      }
+    },
+    "CANTOR": {
+      "symbol": "CANTOR",
+      "pair": "CANTOR/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "CANTOR",
+        "title": "FalconX Explores IPO Plans as Cantor and Banks Compete for\u2026",
+        "source": "coinmarketcap"
+      }
+    },
+    "BANKS": {
+      "symbol": "BANKS",
+      "pair": "BANKS/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "BANKS",
+        "title": "FalconX Explores IPO Plans as Cantor and Banks Compete for\u2026",
+        "source": "coinmarketcap"
+      }
+    },
+    "EXPLORES": {
+      "symbol": "EXPLORES",
+      "pair": "EXPLORES/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "EXPLORES",
+        "title": "FalconX Explores IPO Plans as Cantor and Banks Compete for\u2026",
+        "source": "coinmarketcap"
+      }
+    },
+    "HIRE": {
+      "symbol": "HIRE",
+      "pair": "HIRE/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "HIRE",
+        "title": "Ledger Targets Wall Street With New York Expansion and CFO Hire",
+        "source": "coinmarketcap"
+      }
+    },
+    "LEDGER": {
+      "symbol": "LEDGER",
+      "pair": "LEDGER/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "LEDGER",
+        "title": "Ledger Targets Wall Street With New York Expansion and CFO Hire",
+        "source": "coinmarketcap"
+      }
+    },
+    "YORK": {
+      "symbol": "YORK",
+      "pair": "YORK/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "YORK",
+        "title": "Ledger Targets Wall Street With New York Expansion and CFO Hire",
+        "source": "coinmarketcap"
+      }
+    },
+    "EXPANSION": {
+      "symbol": "EXPANSION",
+      "pair": "EXPANSION/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "EXPANSION",
+        "title": "Ledger Targets Wall Street With New York Expansion and CFO Hire",
+        "source": "coinmarketcap"
+      }
+    },
+    "TARGETS": {
+      "symbol": "TARGETS",
+      "pair": "TARGETS/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "TARGETS",
+        "title": "Ledger Targets Wall Street With New York Expansion and CFO Hire",
+        "source": "coinmarketcap"
+      }
+    },
+    "AGE": {
+      "symbol": "AGE",
+      "pair": "AGE/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "AGE",
+        "title": "Ethereum Price Prediction 2026: ETH Shows Its Age While\u2026",
+        "source": "coinmarketcap"
+      }
+    },
+    "ITS": {
+      "symbol": "ITS",
+      "pair": "ITS/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "ITS",
+        "title": "Ethereum Price Prediction 2026: ETH Shows Its Age While\u2026",
+        "source": "coinmarketcap"
+      }
+    },
+    "WHILE": {
+      "symbol": "WHILE",
+      "pair": "WHILE/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "WHILE",
+        "title": "Dogecoin Price Prediction 2026: TRUMP Whales Feast While\u2026",
+        "source": "coinmarketcap"
+      }
+    },
+    "PREDICTION": {
+      "symbol": "PREDICTION",
+      "pair": "PREDICTION/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "PREDICTION",
+        "title": "Dogecoin Price Prediction 2026: TRUMP Whales Feast While\u2026",
+        "source": "coinmarketcap"
+      }
+    },
+    "HAVE": {
+      "symbol": "HAVE",
+      "pair": "HAVE/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "HAVE",
+        "title": "Bitcoin Indicator That Called Every Bottom Since 2015 Just Flashed Red: $60,000 May Not Have Been the Low",
+        "source": "coinmarketcap"
+      }
+    },
+    "MAY": {
+      "symbol": "MAY",
+      "pair": "MAY/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "MAY",
+        "title": "Bitcoin Indicator That Called Every Bottom Since 2015 Just Flashed Red: $60,000 May Not Have Been the Low",
+        "source": "coinmarketcap"
+      }
+    },
+    "RED": {
+      "symbol": "RED",
+      "pair": "RED/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "RED",
+        "title": "Bitcoin Indicator That Called Every Bottom Since 2015 Just Flashed Red: $60,000 May Not Have Been the Low",
+        "source": "coinmarketcap"
+      }
+    },
+    "BOTTOM": {
+      "symbol": "BOTTOM",
+      "pair": "BOTTOM/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "BOTTOM",
+        "title": "Bitcoin Indicator That Called Every Bottom Since 2015 Just Flashed Red: $60,000 May Not Have Been the Low",
+        "source": "coinmarketcap"
+      }
+    },
+    "INDICATOR": {
+      "symbol": "INDICATOR",
+      "pair": "INDICATOR/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "INDICATOR",
+        "title": "Bitcoin Indicator That Called Every Bottom Since 2015 Just Flashed Red: $60,000 May Not Have Been the Low",
+        "source": "coinmarketcap"
+      }
+    },
+    "EVERY": {
+      "symbol": "EVERY",
+      "pair": "EVERY/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "EVERY",
+        "title": "Bitcoin Indicator That Called Every Bottom Since 2015 Just Flashed Red: $60,000 May Not Have Been the Low",
+        "source": "coinmarketcap"
+      }
+    },
+    "BEEN": {
+      "symbol": "BEEN",
+      "pair": "BEEN/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "BEEN",
+        "title": "Bitcoin Indicator That Called Every Bottom Since 2015 Just Flashed Red: $60,000 May Not Have Been the Low",
+        "source": "coinmarketcap"
+      }
+    },
+    "JUST": {
+      "symbol": "JUST",
+      "pair": "JUST/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "JUST",
+        "title": "Bitcoin Indicator That Called Every Bottom Since 2015 Just Flashed Red: $60,000 May Not Have Been the Low",
+        "source": "coinmarketcap"
+      }
+    },
+    "FLASHED": {
+      "symbol": "FLASHED",
+      "pair": "FLASHED/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "FLASHED",
+        "title": "Bitcoin Indicator That Called Every Bottom Since 2015 Just Flashed Red: $60,000 May Not Have Been the Low",
+        "source": "coinmarketcap"
+      }
+    },
+    "CALLED": {
+      "symbol": "CALLED",
+      "pair": "CALLED/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "CALLED",
+        "title": "Bitcoin Indicator That Called Every Bottom Since 2015 Just Flashed Red: $60,000 May Not Have Been the Low",
+        "source": "coinmarketcap"
+      }
+    },
+    "STRONG": {
+      "symbol": "STRONG",
+      "pair": "STRONG/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "STRONG",
+        "title": "Best Crypto to Buy Now: Strong Fundamentals and a Long\u2026",
+        "source": "coinmarketcap"
+      }
+    },
+    "NOW": {
+      "symbol": "NOW",
+      "pair": "NOW/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "NOW",
+        "title": "Best Crypto to Buy Now: Strong Fundamentals and a Long\u2026",
+        "source": "coinmarketcap"
+      }
+    },
+    "LONG": {
+      "symbol": "LONG",
+      "pair": "LONG/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "LONG",
+        "title": "Best Crypto to Buy Now: Strong Fundamentals and a Long\u2026",
+        "source": "coinmarketcap"
+      }
+    },
+    "BREAK": {
+      "symbol": "BREAK",
+      "pair": "BREAK/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "BREAK",
+        "title": "Altcoin Market Flashes Ultra-Bullish Signal After 5-Year Pattern Break \u2014 5 Coins Worth the Gamble",
+        "source": "coinmarketcap"
+      }
+    },
+    "GAMBLE": {
+      "symbol": "GAMBLE",
+      "pair": "GAMBLE/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "GAMBLE",
+        "title": "Altcoin Market Flashes Ultra-Bullish Signal After 5-Year Pattern Break \u2014 5 Coins Worth the Gamble",
+        "source": "coinmarketcap"
+      }
+    },
+    "FLASHES": {
+      "symbol": "FLASHES",
+      "pair": "FLASHES/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "FLASHES",
+        "title": "Altcoin Market Flashes Ultra-Bullish Signal After 5-Year Pattern Break \u2014 5 Coins Worth the Gamble",
+        "source": "coinmarketcap"
+      }
+    },
+    "ULTRA": {
+      "symbol": "ULTRA",
+      "pair": "ULTRA/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "ULTRA",
+        "title": "Altcoin Market Flashes Ultra-Bullish Signal After 5-Year Pattern Break \u2014 5 Coins Worth the Gamble",
+        "source": "coinmarketcap"
+      }
+    },
+    "YEAR": {
+      "symbol": "YEAR",
+      "pair": "YEAR/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "YEAR",
+        "title": "Altcoin Market Flashes Ultra-Bullish Signal After 5-Year Pattern Break \u2014 5 Coins Worth the Gamble",
+        "source": "coinmarketcap"
+      }
+    },
+    "COINS": {
+      "symbol": "COINS",
+      "pair": "COINS/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "COINS",
+        "title": "Altcoin Market Flashes Ultra-Bullish Signal After 5-Year Pattern Break \u2014 5 Coins Worth the Gamble",
+        "source": "coinmarketcap"
+      }
+    },
+    "BULLISH": {
+      "symbol": "BULLISH",
+      "pair": "BULLISH/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "BULLISH",
+        "title": "Altcoin Market Flashes Ultra-Bullish Signal After 5-Year Pattern Break \u2014 5 Coins Worth the Gamble",
+        "source": "coinmarketcap"
+      }
+    },
+    "WORTH": {
+      "symbol": "WORTH",
+      "pair": "WORTH/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "WORTH",
+        "title": "Altcoin Market Flashes Ultra-Bullish Signal After 5-Year Pattern Break \u2014 5 Coins Worth the Gamble",
+        "source": "coinmarketcap"
+      }
+    },
+    "SIGNAL": {
+      "symbol": "SIGNAL",
+      "pair": "SIGNAL/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "SIGNAL",
+        "title": "Altcoin Market Flashes Ultra-Bullish Signal After 5-Year Pattern Break \u2014 5 Coins Worth the Gamble",
+        "source": "coinmarketcap"
+      }
+    },
+    "ALTCOIN": {
+      "symbol": "ALTCOIN",
+      "pair": "ALTCOIN/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "ALTCOIN",
+        "title": "Market Makers Lose Control? Mastercard Stablecoin Push + SEC Shift Could Trigger 30\u00d7 Altcoin Rally \u2014 5 Trades to Watch",
+        "source": "coinmarketcap"
+      }
+    },
+    "PATTERN": {
+      "symbol": "PATTERN",
+      "pair": "PATTERN/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "PATTERN",
+        "title": "Altcoin Market Flashes Ultra-Bullish Signal After 5-Year Pattern Break \u2014 5 Coins Worth the Gamble",
+        "source": "coinmarketcap"
+      }
+    },
+    "REACHED": {
+      "symbol": "REACHED",
+      "pair": "REACHED/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "REACHED",
+        "title": "Early CLARITY Act Deal Reached Between White House and US Lawmakers: Report",
+        "source": "coinmarketcap"
+      }
+    },
+    "DEAL": {
+      "symbol": "DEAL",
+      "pair": "DEAL/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "DEAL",
+        "title": "Early CLARITY Act Deal Reached Between White House and US Lawmakers: Report",
+        "source": "coinmarketcap"
+      }
+    },
+    "LAWMAKERS": {
+      "symbol": "LAWMAKERS",
+      "pair": "LAWMAKERS/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "LAWMAKERS",
+        "title": "Early CLARITY Act Deal Reached Between White House and US Lawmakers: Report",
+        "source": "coinmarketcap"
+      }
+    },
+    "EARLY": {
+      "symbol": "EARLY",
+      "pair": "EARLY/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "EARLY",
+        "title": "Early CLARITY Act Deal Reached Between White House and US Lawmakers: Report",
+        "source": "coinmarketcap"
+      }
+    },
+    "HOUSE": {
+      "symbol": "HOUSE",
+      "pair": "HOUSE/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "HOUSE",
+        "title": "Early CLARITY Act Deal Reached Between White House and US Lawmakers: Report",
+        "source": "coinmarketcap"
+      }
+    },
+    "WHITE": {
+      "symbol": "WHITE",
+      "pair": "WHITE/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "WHITE",
+        "title": "Early CLARITY Act Deal Reached Between White House and US Lawmakers: Report",
+        "source": "coinmarketcap"
+      }
+    },
+    "ACT": {
+      "symbol": "ACT",
+      "pair": "ACT/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "ACT",
+        "title": "Early CLARITY Act Deal Reached Between White House and US Lawmakers: Report",
+        "source": "coinmarketcap"
+      }
+    },
+    "EUROPE": {
+      "symbol": "EUROPE",
+      "pair": "EUROPE/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "EUROPE",
+        "title": "Taxes make up half of Europe\u2019s surging fuel prices amid Middle East war",
+        "source": "coinmarketcap"
+      }
+    },
+    "UP": {
+      "symbol": "UP",
+      "pair": "UP/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "UP",
+        "title": "Taxes make up half of Europe\u2019s surging fuel prices amid Middle East war",
+        "source": "coinmarketcap"
+      }
+    },
+    "FUEL": {
+      "symbol": "FUEL",
+      "pair": "FUEL/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "FUEL",
+        "title": "Taxes make up half of Europe\u2019s surging fuel prices amid Middle East war",
+        "source": "coinmarketcap"
+      }
+    },
+    "HALF": {
+      "symbol": "HALF",
+      "pair": "HALF/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "HALF",
+        "title": "Taxes make up half of Europe\u2019s surging fuel prices amid Middle East war",
+        "source": "coinmarketcap"
+      }
+    },
+    "WAR": {
+      "symbol": "WAR",
+      "pair": "WAR/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "WAR",
+        "title": "Taxes make up half of Europe\u2019s surging fuel prices amid Middle East war",
+        "source": "coinmarketcap"
+      }
+    },
+    "TAXES": {
+      "symbol": "TAXES",
+      "pair": "TAXES/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "TAXES",
+        "title": "Taxes make up half of Europe\u2019s surging fuel prices amid Middle East war",
+        "source": "coinmarketcap"
+      }
+    },
+    "SURGING": {
+      "symbol": "SURGING",
+      "pair": "SURGING/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "SURGING",
+        "title": "Taxes make up half of Europe\u2019s surging fuel prices amid Middle East war",
+        "source": "coinmarketcap"
+      }
+    },
+    "MAKE": {
+      "symbol": "MAKE",
+      "pair": "MAKE/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "MAKE",
+        "title": "Taxes make up half of Europe\u2019s surging fuel prices amid Middle East war",
+        "source": "coinmarketcap"
+      }
+    },
+    "OF": {
+      "symbol": "OF",
+      "pair": "OF/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "OF",
+        "title": "Taxes make up half of Europe\u2019s surging fuel prices amid Middle East war",
+        "source": "coinmarketcap"
+      }
+    },
+    "LOSE": {
+      "symbol": "LOSE",
+      "pair": "LOSE/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "LOSE",
+        "title": "Market Makers Lose Control? Mastercard Stablecoin Push + SEC Shift Could Trigger 30\u00d7 Altcoin Rally \u2014 5 Trades to Watch",
+        "source": "coinmarketcap"
+      }
+    },
+    "TRIGGER": {
+      "symbol": "TRIGGER",
+      "pair": "TRIGGER/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "TRIGGER",
+        "title": "Market Makers Lose Control? Mastercard Stablecoin Push + SEC Shift Could Trigger 30\u00d7 Altcoin Rally \u2014 5 Trades to Watch",
+        "source": "coinmarketcap"
+      }
+    },
+    "MASTERCARD": {
+      "symbol": "MASTERCARD",
+      "pair": "MASTERCARD/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "MASTERCARD",
+        "title": "Market Makers Lose Control? Mastercard Stablecoin Push + SEC Shift Could Trigger 30\u00d7 Altcoin Rally \u2014 5 Trades to Watch",
+        "source": "coinmarketcap"
+      }
+    },
+    "TRADES": {
+      "symbol": "TRADES",
+      "pair": "TRADES/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "TRADES",
+        "title": "Market Makers Lose Control? Mastercard Stablecoin Push + SEC Shift Could Trigger 30\u00d7 Altcoin Rally \u2014 5 Trades to Watch",
+        "source": "coinmarketcap"
+      }
+    },
+    "PUSH": {
+      "symbol": "PUSH",
+      "pair": "PUSH/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "PUSH",
+        "title": "Market Makers Lose Control? Mastercard Stablecoin Push + SEC Shift Could Trigger 30\u00d7 Altcoin Rally \u2014 5 Trades to Watch",
+        "source": "coinmarketcap"
+      }
+    },
+    "MAKERS": {
+      "symbol": "MAKERS",
+      "pair": "MAKERS/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "MAKERS",
+        "title": "Market Makers Lose Control? Mastercard Stablecoin Push + SEC Shift Could Trigger 30\u00d7 Altcoin Rally \u2014 5 Trades to Watch",
+        "source": "coinmarketcap"
+      }
+    },
+    "STABLECOIN": {
+      "symbol": "STABLECOIN",
+      "pair": "STABLECOIN/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "STABLECOIN",
+        "title": "Market Makers Lose Control? Mastercard Stablecoin Push + SEC Shift Could Trigger 30\u00d7 Altcoin Rally \u2014 5 Trades to Watch",
+        "source": "coinmarketcap"
+      }
+    },
+    "CONTROL": {
+      "symbol": "CONTROL",
+      "pair": "CONTROL/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "CONTROL",
+        "title": "Market Makers Lose Control? Mastercard Stablecoin Push + SEC Shift Could Trigger 30\u00d7 Altcoin Rally \u2014 5 Trades to Watch",
+        "source": "coinmarketcap"
+      }
+    },
+    "WATCH": {
+      "symbol": "WATCH",
+      "pair": "WATCH/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "WATCH",
+        "title": "Market Makers Lose Control? Mastercard Stablecoin Push + SEC Shift Could Trigger 30\u00d7 Altcoin Rally \u2014 5 Trades to Watch",
+        "source": "coinmarketcap"
+      }
+    },
+    "CC": {
+      "symbol": "CC",
+      "pair": "CC/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "CC",
+        "title": "Canton (CC) Price in a Downtrend \u2013 Analyst Says the Drop Isn\u2019t Over",
+        "source": "coinmarketcap"
+      }
+    },
+    "ANALYST": {
+      "symbol": "ANALYST",
+      "pair": "ANALYST/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "ANALYST",
+        "title": "Canton (CC) Price in a Downtrend \u2013 Analyst Says the Drop Isn\u2019t Over",
+        "source": "coinmarketcap"
+      }
+    },
+    "DOWNTREND": {
+      "symbol": "DOWNTREND",
+      "pair": "DOWNTREND/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "DOWNTREND",
+        "title": "Canton (CC) Price in a Downtrend \u2013 Analyst Says the Drop Isn\u2019t Over",
+        "source": "coinmarketcap"
+      }
+    },
+    "CANTON": {
+      "symbol": "CANTON",
+      "pair": "CANTON/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "CANTON",
+        "title": "Canton (CC) Price in a Downtrend \u2013 Analyst Says the Drop Isn\u2019t Over",
+        "source": "coinmarketcap"
+      }
+    },
+    "ISN": {
+      "symbol": "ISN",
+      "pair": "ISN/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "ISN",
+        "title": "Canton (CC) Price in a Downtrend \u2013 Analyst Says the Drop Isn\u2019t Over",
+        "source": "coinmarketcap"
+      }
+    },
+    "IN": {
+      "symbol": "IN",
+      "pair": "IN/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "IN",
+        "title": "Canton (CC) Price in a Downtrend \u2013 Analyst Says the Drop Isn\u2019t Over",
+        "source": "coinmarketcap"
+      }
+    },
+    "WHALES": {
+      "symbol": "WHALES",
+      "pair": "WHALES/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "WHALES",
+        "title": "Dogecoin Price Prediction 2026: TRUMP Whales Feast While\u2026",
+        "source": "coinmarketcap"
+      }
+    },
+    "DOGE": {
+      "symbol": "DOGE",
+      "pair": "DOGE/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "DOGECOIN",
+        "title": "Dogecoin Price Prediction 2026: TRUMP Whales Feast While\u2026",
+        "source": "coinmarketcap"
+      }
+    },
+    "FEAST": {
+      "symbol": "FEAST",
+      "pair": "FEAST/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "FEAST",
+        "title": "Dogecoin Price Prediction 2026: TRUMP Whales Feast While\u2026",
+        "source": "coinmarketcap"
+      }
+    },
+    "PUSHES": {
+      "symbol": "PUSHES",
+      "pair": "PUSHES/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "PUSHES",
+        "title": "Group behind Elton John kneecap jewellery film pushes \u2018gold as a service'",
+        "source": "coinmarketcap"
+      }
+    },
+    "BEHIND": {
+      "symbol": "BEHIND",
+      "pair": "BEHIND/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "BEHIND",
+        "title": "Group behind Elton John kneecap jewellery film pushes \u2018gold as a service'",
+        "source": "coinmarketcap"
+      }
+    },
+    "GROUP": {
+      "symbol": "GROUP",
+      "pair": "GROUP/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "GROUP",
+        "title": "Group behind Elton John kneecap jewellery film pushes \u2018gold as a service'",
+        "source": "coinmarketcap"
+      }
+    },
+    "FILM": {
+      "symbol": "FILM",
+      "pair": "FILM/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "FILM",
+        "title": "Group behind Elton John kneecap jewellery film pushes \u2018gold as a service'",
+        "source": "coinmarketcap"
+      }
+    },
+    "KNEECAP": {
+      "symbol": "KNEECAP",
+      "pair": "KNEECAP/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "KNEECAP",
+        "title": "Group behind Elton John kneecap jewellery film pushes \u2018gold as a service'",
+        "source": "coinmarketcap"
+      }
+    },
+    "JOHN": {
+      "symbol": "JOHN",
+      "pair": "JOHN/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "JOHN",
+        "title": "Group behind Elton John kneecap jewellery film pushes \u2018gold as a service'",
+        "source": "coinmarketcap"
+      }
+    },
+    "SERVICE": {
+      "symbol": "SERVICE",
+      "pair": "SERVICE/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "SERVICE",
+        "title": "Group behind Elton John kneecap jewellery film pushes \u2018gold as a service'",
+        "source": "coinmarketcap"
+      }
+    },
+    "ELTON": {
+      "symbol": "ELTON",
+      "pair": "ELTON/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "ELTON",
+        "title": "Group behind Elton John kneecap jewellery film pushes \u2018gold as a service'",
+        "source": "coinmarketcap"
+      }
+    },
+    "GOLD": {
+      "symbol": "GOLD",
+      "pair": "GOLD/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "GOLD",
+        "title": "Group behind Elton John kneecap jewellery film pushes \u2018gold as a service'",
+        "source": "coinmarketcap"
+      }
+    },
+    "JEWELLERY": {
+      "symbol": "JEWELLERY",
+      "pair": "JEWELLERY/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "JEWELLERY",
+        "title": "Group behind Elton John kneecap jewellery film pushes \u2018gold as a service'",
+        "source": "coinmarketcap"
+      }
+    },
+    "EARN": {
+      "symbol": "EARN",
+      "pair": "EARN/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "EARN",
+        "title": "Activate Once, Earn Forever \u2014 Bitcoin Everlight Shards Give You Real BTC from Day One",
+        "source": "coinmarketcap"
+      }
+    },
+    "ONE": {
+      "symbol": "ONE",
+      "pair": "ONE/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "ONE",
+        "title": "Activate Once, Earn Forever \u2014 Bitcoin Everlight Shards Give You Real BTC from Day One",
+        "source": "coinmarketcap"
+      }
+    },
+    "SHARDS": {
+      "symbol": "SHARDS",
+      "pair": "SHARDS/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "SHARDS",
+        "title": "Activate Once, Earn Forever \u2014 Bitcoin Everlight Shards Give You Real BTC from Day One",
+        "source": "coinmarketcap"
+      }
+    },
+    "FOREVER": {
+      "symbol": "FOREVER",
+      "pair": "FOREVER/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "FOREVER",
+        "title": "Activate Once, Earn Forever \u2014 Bitcoin Everlight Shards Give You Real BTC from Day One",
+        "source": "coinmarketcap"
+      }
+    },
+    "ONCE": {
+      "symbol": "ONCE",
+      "pair": "ONCE/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "ONCE",
+        "title": "Activate Once, Earn Forever \u2014 Bitcoin Everlight Shards Give You Real BTC from Day One",
+        "source": "coinmarketcap"
+      }
+    },
+    "ACTIVATE": {
+      "symbol": "ACTIVATE",
+      "pair": "ACTIVATE/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "ACTIVATE",
+        "title": "Activate Once, Earn Forever \u2014 Bitcoin Everlight Shards Give You Real BTC from Day One",
+        "source": "coinmarketcap"
+      }
+    },
+    "REAL": {
+      "symbol": "REAL",
+      "pair": "REAL/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "REAL",
+        "title": "Activate Once, Earn Forever \u2014 Bitcoin Everlight Shards Give You Real BTC from Day One",
+        "source": "coinmarketcap"
+      }
+    },
+    "DAY": {
+      "symbol": "DAY",
+      "pair": "DAY/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "DAY",
+        "title": "Activate Once, Earn Forever \u2014 Bitcoin Everlight Shards Give You Real BTC from Day One",
+        "source": "coinmarketcap"
+      }
+    },
+    "GIVE": {
+      "symbol": "GIVE",
+      "pair": "GIVE/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "GIVE",
+        "title": "Activate Once, Earn Forever \u2014 Bitcoin Everlight Shards Give You Real BTC from Day One",
+        "source": "coinmarketcap"
+      }
+    },
+    "EVERLIGHT": {
+      "symbol": "EVERLIGHT",
+      "pair": "EVERLIGHT/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "EVERLIGHT",
+        "title": "Activate Once, Earn Forever \u2014 Bitcoin Everlight Shards Give You Real BTC from Day One",
+        "source": "coinmarketcap"
+      }
+    },
+    "REHYPO": {
+      "symbol": "REHYPO",
+      "pair": "REHYPO/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "REHYPO",
+        "title": "\u267b\ufe0f Rehypo",
+        "source": "coinmarketcap"
+      }
+    },
+    "ALPHA": {
+      "symbol": "ALPHA",
+      "pair": "ALPHA/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "ALPHA",
+        "title": "\ud83d\udd25 Binance Alpha",
+        "source": "coinmarketcap"
+      }
+    },
+    "BNB": {
+      "symbol": "BNB",
+      "pair": "BNB/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "BNB",
+        "title": "\ud83d\udd25 BNB",
+        "source": "coinmarketcap"
+      }
+    },
+    "MEMES": {
+      "symbol": "MEMES",
+      "pair": "MEMES/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "MEMES",
+        "title": "\ud83d\udd25 Memes",
+        "source": "coinmarketcap"
+      }
+    },
+    "LAYER": {
+      "symbol": "LAYER",
+      "pair": "LAYER/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "LAYER",
+        "title": "\ud83d\udd25 X Layer",
+        "source": "coinmarketcap"
+      }
+    },
+    "PROTOCOLS": {
+      "symbol": "PROTOCOLS",
+      "pair": "PROTOCOLS/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "PROTOCOLS",
+        "title": "\ud83d\udd25 RWA Protocols",
+        "source": "coinmarketcap"
+      }
+    },
+    "RWA": {
+      "symbol": "RWA",
+      "pair": "RWA/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "RWA",
+        "title": "\ud83d\udd25 RWA Protocols",
+        "source": "coinmarketcap"
+      }
+    },
+    "GAMING": {
+      "symbol": "GAMING",
+      "pair": "GAMING/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "GAMING",
+        "title": "\ud83d\udd25 Gaming",
+        "source": "coinmarketcap"
+      }
+    },
+    "DEPIN": {
+      "symbol": "DEPIN",
+      "pair": "DEPIN/USDT:USDT",
+      "score": 0.55,
+      "source": "coinmarketcap",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "DEPIN",
+        "title": "\ud83d\udd25 DePIN",
+        "source": "coinmarketcap"
+      }
+    },
+    "W": {
+      "symbol": "W",
+      "pair": "W/USDT:USDT",
+      "score": 0.5,
+      "source": "panews",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "W",
+        "content": "\u9999\u6e2f\u8bc1\u76d1\u4f1a\uff1aRWA\u4ee3\u5e01\u5316\u4ea7\u54c1\u6682\u4e0d\u9002\u5408\u4f5c\u80a1\u7968\u4ea4\u6613\uff0c\u8f83\u4f20\u7edf\u4ea4\u6613\u5e76\u65e0\u4f18\u52bf",
+        "source": "panews"
+      }
+    },
+    "RIVER": {
+      "symbol": "RIVER",
+      "pair": "RIVER/USDT:USDT",
+      "score": 0.5,
+      "source": "panews",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "RIVER",
+        "content": "\u300dRiver\uff08RIVER\uff09\u89e3\u9501\u7ea6110\u4e07\u679a\u4ee3\u5e01\uff0c\u4ef7\u503c\u7ea62670\u4e07\u7f8e\u5143",
+        "source": "panews"
+      }
+    },
+    "ID": {
+      "symbol": "ID",
+      "pair": "ID/USDT:USDT",
+      "score": 0.5,
+      "source": "panews",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "ID",
+        "content": "\u300dSPACE ID\uff08ID\uff09\u89e3\u9501\u7ea6 7300\u4e07\u679a\u4ee3\u5e01\uff0c\u4ef7\u503c\u7ea6300\u4e07\u7f8e\u5143",
+        "source": "panews"
+      }
+    },
+    "SPACE": {
+      "symbol": "SPACE",
+      "pair": "SPACE/USDT:USDT",
+      "score": 0.5,
+      "source": "panews",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "SPACE",
+        "content": "\u300dSPACE ID\uff08ID\uff09\u89e3\u9501\u7ea6 7300\u4e07\u679a\u4ee3\u5e01\uff0c\u4ef7\u503c\u7ea6300\u4e07\u7f8e\u5143",
+        "source": "panews"
+      }
+    },
+    "ATOM": {
+      "symbol": "ATOM",
+      "pair": "ATOM/USDT:USDT",
+      "score": 0.5,
+      "source": "panews",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "ATOM",
+        "content": "\u300dCosmos\u751f\u6001\u9879\u76eeNeutron\u5f00\u653edNTRN\u8d4e\u56de",
+        "source": "panews"
+      }
+    },
+    "DIGITAL": {
+      "symbol": "DIGITAL",
+      "pair": "DIGITAL/USDT:USDT",
+      "score": 0.5,
+      "source": "panews",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "DIGITAL",
+        "content": "\u300dDigital Asset Summit 2026\u00b7\u7ebd\u7ea6\u7ad9",
+        "source": "panews"
+      }
+    },
+    "SUMMIT": {
+      "symbol": "SUMMIT",
+      "pair": "SUMMIT/USDT:USDT",
+      "score": 0.5,
+      "source": "panews",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "SUMMIT",
+        "content": "\u300dDigital Asset Summit 2026\u00b7\u7ebd\u7ea6\u7ad9",
+        "source": "panews"
+      }
+    },
+    "BIT": {
+      "symbol": "BIT",
+      "pair": "BIT/USDT:USDT",
+      "score": 0.5,
+      "source": "panews",
+      "discovered_at": "2026-03-21T09:56:15.077819",
+      "exchange_supported": null,
+      "details": {
+        "symbol": "BIT",
+        "content": "Matrixport\u542f\u7528\u5168\u65b0\u54c1\u724c\u540d\u79f0 BIT\uff0c\u5e76\u53d1\u5e03\u300a2026 \u4fe1\u4efb\u767d\u76ae\u4e66\u300b",
+        "source": "panews"
+      }
+    }
+  },
+  "trending_scores": {},
+  "last_update": "2026-03-21T09:56:16.914400"
+}
