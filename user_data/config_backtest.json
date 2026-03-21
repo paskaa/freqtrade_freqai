@@ -47,6 +47,7 @@
     "ccxt_config": {
       "enableRateLimit": true,
       "timeout": 60000,
+      "httpsProxy": "http://127.0.0.1:18080",
       "wssProxy": "http://127.0.0.1:18080",
       "options": {
         "defaultType": "future",
