@@ -1,0 +1,75 @@
+{
+  "$schema": "https://schema.freqtrade.io/schema.json",
+  "verbosity": 3,
+  "logfile": "/root/ft_userdata/user_data/logs/freqtrade_freqai.log",
+  "stake_currency": "USDT",
+  "stoploss": -0.5,
+  "tradable_balance_ratio": 0.95,
+  "dry_run": true,
+  "max_open_trades": 30,
+  "dry_run_wallet": 30000,
+  "stake_amount": "unlimited",
+  "trading_mode": "futures",
+  "margin_mode": "isolated",
+  "can_short": true,
+  "entry_pricing": {
+    "price_side": "other",
+    "use_order_book": true,
+    "order_book_top": 1
+  },
+  "exit_pricing": {
+    "price_side": "other",
+    "use_order_book": true,
+    "order_book_top": 1
+  },
+  "exchange": {
+    "name": "bybit",
+    "key": "",
+    "secret": "",
+    "ccxt_config": {
+      "timeout": 60000,
+      "httpsProxy": "http://127.0.0.1:18080"
+    },
+    "pair_whitelist": [
+      "BTC/USDT:USDT", "ETH/USDT:USDT", "SOL/USDT:USDT", "DOGE/USDT:USDT", "ADA/USDT:USDT",
+      "NEAR/USDT:USDT", "LINK/USDT:USDT", "BNB/USDT:USDT", "AVAX/USDT:USDT", "DOT/USDT:USDT",
+      "LTC/USDT:USDT", "ATOM/USDT:USDT", "XRP/USDT:USDT", "ARB/USDT:USDT", "OP/USDT:USDT",
+      "IOTA/USDT:USDT", "UNI/USDT:USDT", "GMX/USDT:USDT", "TIA/USDT:USDT", "SPX/USDT:USDT",
+      "QNT/USDT:USDT", "PLUME/USDT:USDT", "ENA/USDT:USDT", "PUMPFUN/USDT:USDT", "APT/USDT:USDT",
+      "PENDLE/USDT:USDT", "MORPHO/USDT:USDT", "SUI/USDT:USDT", "INJ/USDT:USDT", "SEI/USDT:USDT",
+      "WLD/USDT:USDT", "AR/USDT:USDT", "BLUR/USDT:USDT", "COMP/USDT:USDT", "CRV/USDT:USDT",
+      "DYDX/USDT:USDT", "GALA/USDT:USDT", "LDO/USDT:USDT", "MATIC/USDT:USDT", "MKR/USDT:USDT",
+      "RNDR/USDT:USDT", "SAND/USDT:USDT", "PEPE/USDT:USDT", "FLOKI/USDT:USDT", "RAY/USDT:USDT",
+      "AAVE/USDT:USDT", "FIL/USDT:USDT", "FLOW/USDT:USDT", "ICP/USDT:USDT", "IMX/USDT:USDT",
+      "JTO/USDT:USDT", "JUP/USDT:USDT", "ONDO/USDT:USDT", "PYTH/USDT:USDT", "STX/USDT:USDT",
+      "TON/USDT:USDT", "TRX/USDT:USDT", "VIRTUAL/USDT:USDT", "WIF/USDT:USDT"
+    ],
+    "pair_blacklist": ["TRUMP/USDT:USDT", "BONK/USDT:USDT"]
+  },
+  "pairlists": [{"method": "StaticPairList"}],
+  "bot_name": "freqtrade_freqai_v34_4_test",
+  "freqai": {
+    "enabled": true,
+    "train_period_days": 30,
+    "backtest_period_days": 7,
+    "identifier": "alvinchen_freqai_lightgbm_v34_4_30d",
+    "feature_parameters": {
+      "include_timeframes": ["15m", "1h"],
+      "include_corr_pairlist": ["BTC/USDT:USDT", "ETH/USDT:USDT"],
+      "label_period_candles": 12,
+      "include_shifted_candles": 2,
+      "DI_threshold": 0,
+      "indicator_periods_candles": [5, 10, 20, 50]
+    },
+    "model_training_parameters": {
+      "n_estimators": 200,
+      "max_depth": 6,
+      "learning_rate": 0.02,
+      "num_leaves": 31
+    },
+    "data_split_parameters": {
+      "test_size": 0.2,
+      "shuffle": false
+    }
+  }
+}
