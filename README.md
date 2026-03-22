@@ -1,68 +1,92 @@
-# FreqAI Trading Strategy - V31
+# FreqAI Trading Strategy - V34.4
 
 ## Strategy Overview
 
-Alvinchen_15m131_FreqAI is an advanced FreqAI-based trading strategy for cryptocurrency futures.
+Alvinchen_v34_4 is an advanced FreqAI-based trading strategy for cryptocurrency futures on Bybit.
 
-### Key Features (V31)
+### Key Features (V34.4)
 
-1. **放宽止损策略**
-   - 多单止损: 50% (给足波动空间)
-   - 空单止损: 25% (控制风险)
+1. **ADX/DI Primary Entry + FreqAI Auxiliary**
+   - ADX/DI technical indicators as primary entry conditions
+   - FreqAI prediction as auxiliary judgment via `enter_tag`
+   - No mandatory FreqAI filtering - preserves the original 15% profit logic
 
-2. **智能补仓**
-   - 亏损5%触发补仓
-   - 最多补仓3次
-   - 补仓比例: 初始仓位的50%
-   - 信号验证后才补仓
+2. **Intelligent Position Sizing**
+   - `custom_stake_amount` adjusts position size based on FreqAI confidence
+   - FreqAI confirmed trades: 1.5x position size
+   - Technical-only trades: 1.0x position size
 
-3. **FreqAI集成**
-   - LightGBM回归模型
-   - 多时间框架: 15m + 1h
-   - 高胜率指标: ROC, RSI, MFI
+3. **FreqAI Integration**
+   - LightGBM Regressor model
+   - Multi-timeframe: 15m + 1h
+   - Single regression target: `&-s_close_mean` (rolling mean price change)
+   - Prediction threshold: 0.002 (0.2%)
 
-4. **风险管理**
-   - 移动止损锁定利润
-   - 多层ROI止盈
-   - 情绪/链上/新闻过滤
+4. **Risk Management**
+   - Stoploss: 50%
+   - Max open trades: 30
+   - Trailing stop loss enabled
+   - Multiple ROI targets
+
+## Backtest Results (V34.4)
+
+| Metric | Result |
+|--------|--------|
+| **Total Profit** | **17.98%** (5394.93 USDT) |
+| **Total Trades** | 793 |
+| **Win Rate** | **81.8%** (649 wins / 144 losses) |
+| **Profit Factor** | **2.25** |
+| **Avg Duration** | 23h 8m |
+| **Trading Pairs** | 60 |
 
 ## Configuration Files
 
-- `config_freqai.json` - 生产环境配置
-- `config_backtest.json` - 回测配置
+- `config_freqai_v34_4_prod.json` - Production config (API: 28081)
+- `config_freqai_v34_4.json` - Test/Dry-run config
 
 ## Usage
 
 ### Backtesting
 ```bash
 freqtrade backtesting \
-    --config user_data/config_backtest.json \
-    --strategy Alvinchen_15m131_FreqAI \
+    --config user_data/config_freqai_v34_4.json \
+    --strategy Alvinchen_v34_4 \
     --freqaimodel LightGBMRegressor \
-    --timerange 20260219-20260321 \
-    --dry-run-wallet 10000 \
-    --max-open-trades 20
+    --timerange 20260222-20260322
 ```
 
 ### Live Trading
 ```bash
 freqtrade trade \
-    --config user_data/config_freqai.json \
-    --strategy Alvinchen_15m131_FreqAI \
+    --config user_data/config_freqai_v34_4_prod.json \
+    --strategy Alvinchen_v34_4 \
     --freqaimodel LightGBMRegressor
 ```
 
 ## Changelog
 
+### V34.4 (2026-03-22) - Current Production
+- ADX/DI + FreqAI auxiliary strategy
+- 60 trading pairs, max 30 open trades
+- 17.98% profit, 81.8% win rate
+- API port: 28081
+
+### V34.1 (2026-03-22)
+- Fixed FreqAI training not starting issue
+- Added `freqai.start()` call
+- Single regression target
+
+### V34.0 (2026-03-21)
+- Initial FreqAI integration
+- Bug: FreqAI training not started
+
 ### V31 (2026-03-21)
-- 放宽止损: 多单50%, 空单25%
-- 添加补仓策略
-- 优化ROI配置
+- Relaxed stoploss: 50% long, 25% short
+- Added position adjustment
 
 ### V20
-- 初始FreqAI版本
-- LightGBM模型集成
-- 情绪/链上/新闻过滤
+- Initial FreqAI version
+- LightGBM model integration
 
 ## Author
 
