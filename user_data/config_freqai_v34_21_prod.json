@@ -1,0 +1,120 @@
+{
+  "$schema": "https://schema.freqtrade.io/schema.json",
+  "verbosity": 1,
+  "logfile": "/root/ft_userdata/user_data/logs/freqtrade_v34_21_prod.log",
+  "stake_currency": "USDT",
+  "stoploss": -0.5,
+  "tradable_balance_ratio": 0.95,
+  "dry_run": false,
+  "max_open_trades": 5,
+  "dry_run_wallet": 30000,
+  "stake_amount": "unlimited",
+  "cancel_open_orders_on_exit": false,
+  "trading_mode": "futures",
+  "margin_mode": "isolated",
+  "can_short": true,
+  "export": "signals",
+  "backtest_cache_path": "user_data/backtest_results/",
+  "dataformat": "json",
+  "db_url": "postgresql://freqtrade:freqtrade123@localhost/freqtrade",
+  "unfilledtimeout": {
+    "entry": 10,
+    "exit": 10,
+    "exit_timeout_count": 0,
+    "unit": "minutes"
+  },
+  "entry_pricing": {
+    "price_side": "other",
+    "use_order_book": true,
+    "order_book_top": 1,
+    "check_depth_of_market": {
+      "enabled": false,
+      "bids_to_ask_delta": 1
+    }
+  },
+  "exit_pricing": {
+    "price_side": "other",
+    "use_order_book": true,
+    "order_book_top": 1
+  },
+  "exchange": {
+    "name": "bybit",
+    "key": "ZhPqkonBlYE95ZzbuH",
+    "secret": "WAuqCiOxlAImWpATyCVqNF1IEPNUkQDO2MoS",
+    "retries": 5,
+    "enable_ws": false,
+    "ratelimit_sleep": true,
+    "timeout": 60000,
+    "ccxt_config": {
+      "timeout": 60000,
+      "httpsProxy": "http://127.0.0.1:18080",
+      "rateLimit": 100,
+      "options": {
+        "defaultType": "future",
+        "recvWindow": 60000,
+        "adjustForTimeDifference": true
+      }
+    },
+    "ccxt_sync_config": {
+      "timeout": 60000,
+      "rateLimit": 50
+    },
+    "ccxt_async_config": {
+      "timeout": 60000,
+      "rateLimit": 50
+    },
+    "pair_whitelist": [
+      "BTC/USDT:USDT", "ETH/USDT:USDT", "SOL/USDT:USDT", "DOGE/USDT:USDT", "ADA/USDT:USDT",
+      "NEAR/USDT:USDT", "LINK/USDT:USDT", "BNB/USDT:USDT", "AVAX/USDT:USDT", "DOT/USDT:USDT",
+      "LTC/USDT:USDT", "ATOM/USDT:USDT", "XRP/USDT:USDT", "ARB/USDT:USDT", "OP/USDT:USDT",
+      "IOTA/USDT:USDT", "UNI/USDT:USDT", "GMX/USDT:USDT", "TIA/USDT:USDT", "SPX/USDT:USDT",
+      "QNT/USDT:USDT", "ENA/USDT:USDT", "PUMPFUN/USDT:USDT", "APT/USDT:USDT",
+      "PENDLE/USDT:USDT", "MORPHO/USDT:USDT", "SUI/USDT:USDT", "INJ/USDT:USDT", "SEI/USDT:USDT",
+      "WLD/USDT:USDT", "AR/USDT:USDT", "BLUR/USDT:USDT", "COMP/USDT:USDT", "CRV/USDT:USDT",
+      "DYDX/USDT:USDT", "GALA/USDT:USDT", "LDO/USDT:USDT", "SAND/USDT:USDT", "AAVE/USDT:USDT",
+      "FIL/USDT:USDT", "FLOW/USDT:USDT", "ICP/USDT:USDT", "IMX/USDT:USDT", "JTO/USDT:USDT",
+      "JUP/USDT:USDT", "ONDO/USDT:USDT", "PYTH/USDT:USDT", "STX/USDT:USDT", "TON/USDT:USDT",
+      "TRX/USDT:USDT", "VIRTUAL/USDT:USDT", "WIF/USDT:USDT", "HYPE/USDT:USDT", "GRASS/USDT:USDT"
+    ],
+    "pair_blacklist": [
+      "TRUMP/USDT:USDT",
+      "BONK/USDT:USDT"
+    ],
+    "taker": 0.002,
+    "maker": 0.002
+  },
+  "pairlists": [
+    {
+      "method": "StaticPairList"
+    }
+  ],
+  "api_server": {
+    "enabled": true,
+    "listen_ip_address": "0.0.0.0",
+    "listen_port": 28081,
+    "verbosity": "error",
+    "enable_openapi": true,
+    "jwt_secret_key": "freqai_v34_21_secure_secret_key_2026_bybit",
+    "ws_token": "freqai_v34_21_ws_token",
+    "CORS_origins": [],
+    "username": "alvinchen1010",
+    "password": "Fhzl1981302"
+  },
+  "bot_name": "freqtrade_v34_21_prod",
+  "initial_state": "running",
+  "force_entry_enable": true,
+  "internals": {
+    "process_throttle_secs": 5
+  },
+  "environment": {
+    "NUMEXPR_MAX_THREADS": "64"
+  },
+  "freqai": {
+    "enabled": false,
+    "feature_parameters": {
+      "include_timeframes": [],
+      "include_corr_pairlist": []
+    },
+    "data_split_parameters": {}
+  }
+}

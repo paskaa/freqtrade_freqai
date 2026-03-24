@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v34.21] - 2026-03-25
+
+### Added
+- New strategy `Alvinchen_v34_21.py` - Pure short-only trading strategy
+- Aggressive ROI exit settings: 3% -> 2% -> 1.5% -> 1% -> 0.5% -> 0%
+- Strict short entry conditions: ADX>35, DI_diff<-8, RSI 20-45
+- MTF confirmation: 1h bearish + 15m bearish required
+
+### Changed
+- Long entries completely disabled
+- Trailing stop disabled
+- ROI exits made more aggressive (3% immediate vs 15% original)
+- 1-year backtest period: 20250325-20260325
+
+### Performance (1-Year Backtest)
+- Total Profit: **+41.60%**
+- Drawdown: **25.47%**
+- Trades: 614
+- Key insight: Long trades lost -34.47%, shorts lost only -1.86%
+
+### Production
+- Config: `config_freqai_v34_21_prod.json`
+- API Port: 28081
+- Status: **Running**
+
 ## [v34.20] - 2026-03-24
 
 ### Added
@@ -14,9 +39,6 @@ All notable changes to this project will be documented in this file.
 - MTF logic: Long requires 15m signal + 1h EMA20>EMA50 + 4h ADX>25 or price above 4h EMA50
 - MTF logic: Short requires 15m signal + 1h EMA20<EMA50 + 4h ADX>25 or price below 4h EMA50
 - Improved `populate_entry_trend` to use MTF columns with fallbacks
-
-### Performance
-- Backtest on 20250901-20260201 period (waiting for results)
 
 ## [v34.19] - 2026-03-24
 
