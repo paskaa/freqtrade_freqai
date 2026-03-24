@@ -781,30 +781,20 @@ class Alvinchen_v34_20(IStrategy):
 
     def populate_entry_trend(self, dataframe: DataFrame, metadata: dict) -> DataFrame:
         """
-        Entry conditions - v34.20: ADX/DI主条件 + Multi-Timeframe确认
+        Entry conditions - v34.20: ADX/DI主条件 + Hyperopt参数优化
 
-        MTF逻辑:
-        - 做多: 15m信号 + 1h EMA20>EMA50 (上升趋势) + 4h ADX>25 或价格在EMA50上方
-        - 做空: 15m信号 + 1h EMA20<EMA50 (下降趋势) + 4h ADX>25 或价格在EMA50下方
+        策略改进:
+        1. 使用hyperopt优化参数 (adx_threshold, volume_mult)
+        2. 保留原始ADX/DI入场条件逻辑
+        3. MTF informative methods 可用但暂不在入场条件中使用（需要更多研究）
         """
-        # ========== v34.20 MTF确认 ==========
-        # 1h EMA趋势 (ema_20_1h, ema_50_1h 由 @informative 自动合并)
-        mtf_1h_uptrend = dataframe.get('ema_20_1h', dataframe['ema_20']) > dataframe.get('ema_50_1h', dataframe['ema_50'])
-        mtf_1h_downtrend = dataframe.get('ema_20_1h', dataframe['ema_20']) < dataframe.get('ema_50_1h', dataframe['ema_50'])
-
-        # 4h ADX和EMA趋势 (adx_4h, ema_50_4h 由 @informative 自动合并)
-        mtf_4h_adx = dataframe.get('adx_4h', dataframe['adx'])
-        mtf_4h_ema = dataframe.get('ema_50_4h', dataframe['ema_50'])
-        mtf_4h_strong = mtf_4h_adx > 25
-        mtf_4h_above_ema = dataframe['close'] > mtf_4h_ema
-
         # ========== LONG ENTRY ==========
         # 主入场条件：ADX/DI技术指标（使用hyperopt参数）
         long_conditions = (
-            # 15m EMA alignment
+            # EMA alignment
             (dataframe["ema_20"] > dataframe["ema_50"]) &
             (dataframe["close"] > dataframe["ema_20"]) &
-            # Trend strength
+            # Trend strength (使用hyperopt参数)
             (dataframe["adx"] > self.adx_threshold) &
             # DI direction
             (dataframe["di_diff"] > 10) &
@@ -815,15 +805,9 @@ class Alvinchen_v34_20(IStrategy):
             (dataframe["rsi"] < 70) &
             # Positive momentum
             (dataframe["momentum_5"] > 0.001) &
-            # Volume support
+            # Volume support (使用hyperopt参数)
             (dataframe["volume"] > dataframe["volume_mean_20"] * self.volume_mult)
         )
-
-        # v34.20 MTF确认: 做多需要1h上升趋势
-        long_conditions = long_conditions & mtf_1h_uptrend
-
-        # v34.20 MTF确认: 做多需要4h ADX>25 或价格在EMA50上方
-        long_conditions = long_conditions & (mtf_4h_strong | mtf_4h_above_ema)
 
         # 不用FreqAI过滤入场，只做标记
         dataframe.loc[long_conditions, 'enter_long'] = 1
@@ -843,10 +827,10 @@ class Alvinchen_v34_20(IStrategy):
 
         # ========== SHORT ENTRY ==========
         short_conditions = (
-            # 15m EMA alignment
+            # EMA alignment
             (dataframe["ema_20"] < dataframe["ema_50"]) &
             (dataframe["close"] < dataframe["ema_20"]) &
-            # Trend strength
+            # Trend strength (使用hyperopt参数)
             (dataframe["adx"] > self.adx_threshold) &
             # DI direction
             (dataframe["di_diff"] < -10) &
@@ -860,12 +844,6 @@ class Alvinchen_v34_20(IStrategy):
             # Volume filter
             (dataframe["volume"] > dataframe["volume_mean_20"] * self.volume_mult)
         )
-
-        # v34.20 MTF确认: 做空需要1h下降趋势
-        short_conditions = short_conditions & mtf_1h_downtrend
-
-        # v34.20 MTF确认: 做空需要4h ADX>25 或价格在EMA50下方
-        short_conditions = short_conditions & (mtf_4h_strong | (~mtf_4h_above_ema))
 
         dataframe.loc[short_conditions, 'enter_short'] = 1
 
