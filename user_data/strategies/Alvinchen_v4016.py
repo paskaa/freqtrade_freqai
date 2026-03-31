@@ -1,12 +1,20 @@
 """
-ADX/DI Strategy - v4016 (价格位置优化版)
+ADX/DI Strategy - v4017 (时间敏感止损版)
 ==========================================
 
-基于v4014优化：
+基于v4016优化：
+- v4017核心改动: 时间敏感止损
+- 分析发现: 亏损交易平均持仓4.6天，盈利交易0.8天
+- 解决方案: 持仓时间过长时收紧止损，避免亏损加深
+  * 24h亏损: 止损收紧20%
+  * 48h亏损: 止损再收紧20%
+  * 72h亏损>5%: 强制退出
+
+v4016基础：
 - 提高ADX阈值: Tier1=28, Tier2=32, Tier3=35, Tier4=40
 - 收紧分层止损：Tier1: 18%, Tier2: 15%, Tier3: 12%, Tier4: 10%
-- BTC 1d趋势过滤，禁止逆势
-- v4016新增: 价格位置检查，避免局部高点做多、局部低点做空
+- BTC 1d趋势过滤
+- 价格位置检查
 """
 
 import logging
@@ -772,7 +780,7 @@ class Alvinchen_v4016(IStrategy):
 
         tier = self._get_pair_tier(pair)
 
-        # v4014: 使用收紧后的止损
+        # v4017: 使用收紧后的止损
         if tier == 1:
             initial_stoploss = self.tier1_initial_stoploss  # 18%
         elif tier == 2:
@@ -781,6 +789,27 @@ class Alvinchen_v4016(IStrategy):
             initial_stoploss = self.tier3_initial_stoploss  # 12%
         else:
             initial_stoploss = self.tier4_initial_stoploss  # 10%
+
+        # v4017优化: 时间敏感止损
+        # 分析显示: 亏损交易平均持仓4.6天，盈利交易0.8天
+        # 解决方案: 持仓时间过长时收紧止损，避免亏损加深
+        holding_hours = (current_time - trade.open_date_utc).total_seconds() / 3600
+
+        # 持仓超过24小时且处于亏损，止损收紧20%
+        if holding_hours > 24 and current_profit < 0:
+            initial_stoploss = initial_stoploss * 0.8
+            if holding_hours > 24:  # 只记录一次
+                logger.info(f"⏰ [24h止损收紧] {pair} 持仓{holding_hours:.0f}h亏损{current_profit:.2%}, 止损收紧到{initial_stoploss:.2%}")
+
+        # 持仓超过48小时且处于亏损，止损再收紧20%
+        if holding_hours > 48 and current_profit < 0:
+            initial_stoploss = initial_stoploss * 0.8
+            logger.info(f"⏰ [48h止损收紧] {pair} 持仓{holding_hours:.0f}h亏损{current_profit:.2%}, 止损收紧到{initial_stoploss:.2%}")
+
+        # 持仓超过72小时且亏损超过5%，强制止损
+        if holding_hours > 72 and current_profit < -0.05:
+            logger.warning(f"🚨 [72h强制止损] {pair} 持仓{holding_hours:.0f}h亏损{current_profit:.2%}, 强制退出")
+            return 0.001  # 微小止损触发平仓
 
         if trade.is_short:
             return initial_stoploss
