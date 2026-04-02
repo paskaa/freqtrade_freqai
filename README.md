@@ -1,77 +1,48 @@
-# FreqAI Trading Strategy - V35
+# Freqtrade 加密货币交易策略
 
-## Strategy Overview
+## 当前版本: v4022
 
-Alvinchen_v35 is an advanced multi-timeframe trading strategy for cryptocurrency futures on Bybit with optimized entry conditions for both long and short positions.
+### 性能指标 (1年回测 2025-04-01 ~ 2026-03-28)
 
-### Key Features (V35)
+| 指标 | 值 |
+|------|-----|
+| 交易数 | 456 |
+| 胜率 | **69.3%** |
+| 总利润 | **+21,557 USDT (+71.86%)** |
+| 回撤 | 11.72% |
+| Sharpe | **3.27** |
+| Calmar | **32.45** |
 
-1. **Multi-Timeframe Analysis (MTF)**
-   - 1h indicators: EMA20, EMA50, ADX for trend confirmation
-   - 4h indicators: EMA50, ADX for direction filtering
-   - 15m timeframe for entry signals
+### 核心策略特点
 
-2. **Optimized Entry Conditions**
-   - **Long**: ADX > 55, DI_diff > 20, RSI 60-65 (very strict)
-   - **Short**: ADX > 35, DI_diff < -8, RSI 20-45 (strict)
-   - MTF confirmation required for both directions
+- **4层币种分级**: Tier1-Tier4不同阈值
+- **ADX/DI趋势确认**: 确保入场质量
+- **时间敏感止损**: 24h/48h/72h递进收紧
+- **分层止盈**: 多档位锁定利润
+- **熊市抄底优化**: 严格的oversold_long条件
 
-3. **Aggressive ROI Exits**
-   - 0: 3% (immediate profit taking)
-   - 15min: 2%
-   - 60min: 1.5%
-   - 240min: 1%
-   - 720min: 0.5%
-   - 1440min: 0 (breakeven)
+### 快速开始
 
-## Backtest Results (1-Year)
-
-| Version | Total Profit | Drawdown | Trades | Win Rate | Period |
-|---------|-------------|----------|--------|----------|--------|
-| **V35** | **+19.27%** | **17.34%** | **566** | **86.6%** | 20250325-20260325 |
-| V34.21 (short-only) | +41.60% | 25.47% | 614 | - | 20250325-20260325 |
-
-## Version History
-
-- **V35**: Multi-directional (long+short) with optimized long conditions
-- **V34.21**: Pure short-only strategy (best for bear markets)
-
-## Configuration Files
-
-- `config_freqai_v34_21_prod.json` - Production config (API: 28081)
-- Strategy: `Alvinchen_v35.py`
-
-## Usage
-
-### Backtesting
 ```bash
-freqtrade backtesting \
-    --config user_data/config_freqai_v34_21_prod.json \
-    --strategy Alvinchen_v35 \
-    --timerange 20250325-20260325
+# 回测
+python3 -m freqtrade backtesting \
+  --config user_data/config_v40_prod.json \
+  --strategy Alvinchen_v4022 \
+  --timerange 20250401-20260328 \
+  --timeframe 15m
+
+# 生产运行
+python3 -m freqtrade trade \
+  --config user_data/config_v40_prod.json \
+  --strategy Alvinchen_v4022
 ```
 
-### Live Trading
-```bash
-freqtrade trade \
-    --config user_data/config_freqai_v34_21_prod.json \
-    --strategy Alvinchen_v35
-```
+## 版本历史
 
-## Key Changes from V34.21
+| 版本 | 日期 | 胜率 | 利润 | 核心改进 |
+|------|------|------|------|----------|
+| v4022 | 2026-04-02 | **69.3%** | **+71.86%** | oversold_long收紧 |
+| v4018g | 2026-04-01 | 63.7% | +67.14% | 出场确认优化 |
+| v4017 | 2026-03-31 | 86.3% | +53.5% | 时间敏感止损 |
 
-1. **Enabled Long Entries**: ADX>55, DI_diff>20, RSI 60-65
-2. **Strict Short Conditions**: ADX>35, DI_diff<-8, RSI 20-45
-3. **MTF Confirmation**: 1h + 15m required for all entries
-
-## Changelog
-
-See CHANGELOG.md for detailed version history.
-
-## Author
-
-FreqTrade Bot
-
-## License
-
-MIT
+详见 [CHANGELOG.md](CHANGELOG.md)
