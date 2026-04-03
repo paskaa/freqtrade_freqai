@@ -298,15 +298,23 @@ class Alvinchen_v4032(IStrategy):
 
     @informative('1h')
     def populate_indicators_1h(self, dataframe: DataFrame, metadata: dict) -> DataFrame:
+        # 使用不与主dataframe重复的列名，避免Freqtrade合并时跳过
         dataframe['ema_20'] = ta.EMA(dataframe['close'], timeperiod=20)
         dataframe['ema_50'] = ta.EMA(dataframe['close'], timeperiod=50)
         dataframe['ema_200'] = ta.EMA(dataframe['close'], timeperiod=200)
         dataframe['adx'] = ta.ADX(dataframe, timeperiod=14)
-        macd = ta.MACD(dataframe, fastperiod=12, slowperiod=26, signalperiod=9)
-        dataframe['macd'] = macd['macd']
-        dataframe['macdsignal'] = macd['macdsignal']
-        dataframe['macdhist'] = macd['macdhist']  # v4032: 添加macdhist
-        dataframe['rsi'] = ta.RSI(dataframe['close'], timeperiod=14)
+        # v4032修复: 使用不同列名避免与主dataframe冲突
+        try:
+            macd, macdsignal, macdhist = ta.MACD(dataframe['close'], fastperiod=12, slowperiod=26, signalperiod=9)
+            dataframe['macd_hourly'] = macd
+            dataframe['macdsignal_hourly'] = macdsignal
+            dataframe['macdhist_hourly'] = macdhist
+        except Exception as e:
+            logger.error(f"MACD计算失败: {e}")
+        try:
+            dataframe['rsi_hourly'] = ta.RSI(dataframe['close'], timeperiod=14)
+        except Exception as e:
+            logger.error(f"RSI计算失败: {e}")
         return dataframe
 
     @informative('1d', 'BTC/USDT:USDT')
@@ -738,8 +746,8 @@ class Alvinchen_v4032(IStrategy):
         short_entry = short_entry & (dataframe['price_position'] > 15)
 
         # v4032: 多时间框架确认已完成 (1h EMA趋势已在major_bullish/major_bearish中使用)
-        # 1h MACDhist过滤经测试：回撤改善3.75%，但利润下降7.88%，权衡后暂不启用
-        # Bug已修复: populate_indicators_1h现在包含macdhist计算
+        # 1h RSI过滤经测试：条件太宽松无效果，太严格降低利润，权衡后暂不启用
+        # Bug已修复: 1h指标改用hourly后缀避免与主dataframe列名冲突
 
         # v4030: 日线级别价格位置过滤（可选，默认关闭）
         # 避免在日线低点做空、日线高点做多
