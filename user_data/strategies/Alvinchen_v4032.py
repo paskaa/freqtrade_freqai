@@ -745,9 +745,12 @@ class Alvinchen_v4032(IStrategy):
         long_entry = long_entry & (dataframe['price_position'] < 85)
         short_entry = short_entry & (dataframe['price_position'] > 15)
 
-        # v4032: 多时间框架确认已完成 (1h EMA趋势已在major_bullish/major_bearish中使用)
-        # 1h RSI过滤经测试：条件太宽松无效果，太严格降低利润，权衡后暂不启用
-        # Bug已修复: 1h指标改用hourly后缀避免与主dataframe列名冲突
+        # v4032: 多时间框架确认已完成
+        # 1h EMA趋势已在major_bullish/major_bearish中使用
+        # 1h RSI/MACD过滤经测试：
+        #   - 温和条件：无效果（15m和1h信号高度相关）
+        #   - 严格条件：回撤改善但利润下降
+        # Bug已修复: 1h指标改用hourly后缀，列正确生成可供未来使用
 
         # v4030: 日线级别价格位置过滤（可选，默认关闭）
         # 避免在日线低点做空、日线高点做多
@@ -1343,5 +1346,14 @@ class Alvinchen_v4032(IStrategy):
                 if adx > 20 and di_diff > 0 and rsi > 30:
                     logger.info(f"🔒 [拒绝trailing] {pair} 做多趋势延续 利润{current_profit:.1%} ADX={adx:.1f}")
                     return False
+
+        # v4032: 亏损时价格在局部低点拒绝trailing stop，避免卖在最低点
+        if exit_reason == 'trailing_stop_exit' and current_profit < 0:
+            rsi = last_candle.get('rsi', 50)
+            price_position = last_candle.get('price_position', 50)
+            # 做多亏损时，RSI超卖(<35)或价格在低位(<25%)时拒绝，等待反弹
+            if not trade.is_short and (rsi < 35 or price_position < 25):
+                logger.info(f"🔒 [拒绝底部止损] {pair} 做多亏损{current_profit:.1%} RSI={rsi:.0f} 位置={price_position:.0f}%")
+                return False
 
         return True
