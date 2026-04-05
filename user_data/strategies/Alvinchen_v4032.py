@@ -1000,6 +1000,34 @@ class Alvinchen_v4032(IStrategy):
         ema20_prev = prev_candle.get('ema_20', 0)
         ema50_prev = prev_candle.get('ema_50', 0)
 
+        # ===== v4032新增: 熊市做多快速退出 =====
+        # 熊市中做多是逆势交易，必须快进快出
+        # 策略：熊市做多时，短时间内有利润就立即退出
+        holding_hours = (current_time - trade.open_date_utc).total_seconds() / 3600 if trade.open_date_utc else 0
+
+        # 检测熊市环境
+        market_regime = self._detect_market_regime(dataframe, pair)
+
+        if market_regime == 'bearish' and not trade.is_short:
+            # 熊市做多快速退出条件
+            # 1-2小时内获利2%以上 -> 立即退出
+            # 2-4小时内获利1%以上 -> 立即退出
+            # 4-8小时内获利0.5%以上 -> 立即退出
+            # 8小时以上无利润或微利 -> 趋势不对，止损离场
+            if holding_hours <= 2 and current_profit >= 0.02:
+                logger.info(f"⚡ [熊市快出-超短线] {pair} 熊市做多 持仓{holding_hours:.1f}h 利润{current_profit:.1%}")
+                return 'bear_market_fast_exit'
+            elif holding_hours <= 4 and current_profit >= 0.01:
+                logger.info(f"⚡ [熊市快出-短线] {pair} 熊市做多 持仓{holding_hours:.1f}h 利润{current_profit:.1%}")
+                return 'bear_market_fast_exit'
+            elif holding_hours <= 8 and current_profit >= 0.005:
+                logger.info(f"⚡ [熊市快出-中线] {pair} 熊市做多 持仓{holding_hours:.1f}h 利润{current_profit:.1%}")
+                return 'bear_market_fast_exit'
+            elif holding_hours > 8 and current_profit < 0.01:
+                # 超过8小时还没盈利1%，熊市做多趋势不对，止损离场
+                logger.info(f"⚠️ [熊市止损-超时] {pair} 熊市做多 持仓{holding_hours:.1f}h 利润{current_profit:.1%}")
+                return 'bear_market_timeout_exit'
+
         # ===== v4030: 趋势反转动态出场 =====
         # 核心思路: 基于趋势反转信号出场，而不是固定阈值
         # 关键: 必须有强反转信号才出场，避免过早离场
